@@ -29,7 +29,7 @@ pagenation 및 sort 기능 구현
 
 query parameter를 이용한 카테고리별 데이터 호출
 - 카테고리 메뉴탭을 클릭하면 url에 navigate(`/StayDetail/${e}`);의 형식으로 나타나게끔 로직을 구현하고
-- searchParams를 이용해 category 값을 받아 API의 endpoint로 요청한다.
+- Params를 이용해 category 값을 받아 API의 endpoint로 요청한다.
 - 백엔드 API는 해당하는 데이터들을 전송해준다.
 
 검색 기능 구현
